@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6514C80B1ECB9D47000A31E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C80A1ECB9D47000A31E1 /* AppDelegate.swift */; };
-		6514C80D1ECB9D47000A31E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C80C1ECB9D47000A31E1 /* ViewController.swift */; };
 		6514C8101ECB9D47000A31E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6514C80E1ECB9D47000A31E1 /* Main.storyboard */; };
 		6514C8121ECB9D47000A31E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6514C8111ECB9D47000A31E1 /* Assets.xcassets */; };
 		6514C8151ECB9D47000A31E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6514C8131ECB9D47000A31E1 /* LaunchScreen.storyboard */; };
-		6514C8201ECB9D47000A31E1 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C81F1ECB9D47000A31E1 /* ExampleTests.swift */; };
+		6514C82B1ECBB8A9000A31E1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C82A1ECBB8A9000A31E1 /* Category.swift */; };
+		6514C82E1ECBB92B000A31E1 /* CategorySpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C82D1ECBB92B000A31E1 /* CategorySpecs.swift */; };
+		6514C8311ECBC081000A31E1 /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C8301ECBC081000A31E1 /* NewPostVC.swift */; };
+		6514C8341ECBC58B000A31E1 /* NewPostVCSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C8331ECBC58B000A31E1 /* NewPostVCSpecs.swift */; };
+		6514C8371ECBEAA3000A31E1 /* DevicesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C8361ECBEAA3000A31E1 /* DevicesCoordinator.swift */; };
+		6514C83A1ECBEC16000A31E1 /* DevicesCoordinatorSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514C8391ECBEC16000A31E1 /* DevicesCoordinatorSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +32,18 @@
 /* Begin PBXFileReference section */
 		6514C8071ECB9D47000A31E1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6514C80A1ECB9D47000A31E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6514C80C1ECB9D47000A31E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6514C80F1ECB9D47000A31E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6514C8111ECB9D47000A31E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6514C8141ECB9D47000A31E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6514C8161ECB9D47000A31E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6514C81B1ECB9D47000A31E1 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6514C81F1ECB9D47000A31E1 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		6514C8211ECB9D47000A31E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6514C82A1ECBB8A9000A31E1 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = PresentesMickey/Category.swift; sourceTree = "<group>"; };
+		6514C82D1ECBB92B000A31E1 /* CategorySpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategorySpecs.swift; path = PresentesMickey/CategorySpecs.swift; sourceTree = "<group>"; };
+		6514C8301ECBC081000A31E1 /* NewPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPostVC.swift; path = Shout/NewPostVC.swift; sourceTree = "<group>"; };
+		6514C8331ECBC58B000A31E1 /* NewPostVCSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPostVCSpecs.swift; path = Shout/NewPostVCSpecs.swift; sourceTree = "<group>"; };
+		6514C8361ECBEAA3000A31E1 /* DevicesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevicesCoordinator.swift; path = MCare/DevicesCoordinator.swift; sourceTree = "<group>"; };
+		6514C8391ECBEC16000A31E1 /* DevicesCoordinatorSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevicesCoordinatorSpecs.swift; path = MCare/DevicesCoordinatorSpecs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				6514C80A1ECB9D47000A31E1 /* AppDelegate.swift */,
-				6514C80C1ECB9D47000A31E1 /* ViewController.swift */,
 				6514C80E1ECB9D47000A31E1 /* Main.storyboard */,
 				6514C8111ECB9D47000A31E1 /* Assets.xcassets */,
 				6514C8131ECB9D47000A31E1 /* LaunchScreen.storyboard */,
 				6514C8161ECB9D47000A31E1 /* Info.plist */,
+				6514C82C1ECBB8AD000A31E1 /* PresentesMickey */,
+				6514C8321ECBC085000A31E1 /* Shout */,
+				6514C8381ECBEAA7000A31E1 /* MCare */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -90,10 +100,60 @@
 		6514C81E1ECB9D47000A31E1 /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				6514C81F1ECB9D47000A31E1 /* ExampleTests.swift */,
 				6514C8211ECB9D47000A31E1 /* Info.plist */,
+				6514C82F1ECBB930000A31E1 /* PresentesMickey */,
+				6514C8351ECBC591000A31E1 /* Shout */,
+				6514C83B1ECBEC19000A31E1 /* MCare */,
 			);
 			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		6514C82C1ECBB8AD000A31E1 /* PresentesMickey */ = {
+			isa = PBXGroup;
+			children = (
+				6514C82A1ECBB8A9000A31E1 /* Category.swift */,
+			);
+			name = PresentesMickey;
+			sourceTree = "<group>";
+		};
+		6514C82F1ECBB930000A31E1 /* PresentesMickey */ = {
+			isa = PBXGroup;
+			children = (
+				6514C82D1ECBB92B000A31E1 /* CategorySpecs.swift */,
+			);
+			name = PresentesMickey;
+			sourceTree = "<group>";
+		};
+		6514C8321ECBC085000A31E1 /* Shout */ = {
+			isa = PBXGroup;
+			children = (
+				6514C8301ECBC081000A31E1 /* NewPostVC.swift */,
+			);
+			name = Shout;
+			sourceTree = "<group>";
+		};
+		6514C8351ECBC591000A31E1 /* Shout */ = {
+			isa = PBXGroup;
+			children = (
+				6514C8331ECBC58B000A31E1 /* NewPostVCSpecs.swift */,
+			);
+			name = Shout;
+			sourceTree = "<group>";
+		};
+		6514C8381ECBEAA7000A31E1 /* MCare */ = {
+			isa = PBXGroup;
+			children = (
+				6514C8361ECBEAA3000A31E1 /* DevicesCoordinator.swift */,
+			);
+			name = MCare;
+			sourceTree = "<group>";
+		};
+		6514C83B1ECBEC19000A31E1 /* MCare */ = {
+			isa = PBXGroup;
+			children = (
+				6514C8391ECBEC16000A31E1 /* DevicesCoordinatorSpecs.swift */,
+			);
+			name = MCare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6514C80D1ECB9D47000A31E1 /* ViewController.swift in Sources */,
 				6514C80B1ECB9D47000A31E1 /* AppDelegate.swift in Sources */,
+				6514C82B1ECBB8A9000A31E1 /* Category.swift in Sources */,
+				6514C8311ECBC081000A31E1 /* NewPostVC.swift in Sources */,
+				6514C8371ECBEAA3000A31E1 /* DevicesCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6514C8201ECB9D47000A31E1 /* ExampleTests.swift in Sources */,
+				6514C8341ECBC58B000A31E1 /* NewPostVCSpecs.swift in Sources */,
+				6514C83A1ECBEC16000A31E1 /* DevicesCoordinatorSpecs.swift in Sources */,
+				6514C82E1ECBB92B000A31E1 /* CategorySpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
